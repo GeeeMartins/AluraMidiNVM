@@ -1,8 +1,6 @@
-alert('Abacate');
-
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
 function tocaSomPom(){document.querySelector('.tecla_pom');
 }
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
 function tocaSomClap(){document.querySelector('.tecla_clap');
 }
